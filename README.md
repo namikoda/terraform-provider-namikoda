@@ -21,7 +21,7 @@
 
 Namikoda provides an easy interface for getting configuration values consistent across your physical and cloud infrastructure. We focus on providing IP range data and the tooling to act on it. Confidently use human-readable tags instead of lists of IPs in your configuration.
 
-This module is an interface between Hashicorp's Terraform and the Namikoda API.  It is based on the excellent work of the [build in http provider](https://github.com/terraform-providers/terraform-provider-http).
+This module is an interface between Hashicorp's Terraform and the Namikoda API.  It is based on the excellent work of the [built-in http provider](https://github.com/terraform-providers/terraform-provider-http).
 
 ## Installing
 1. If you haven't yet, generate an API key at https://manage.namikoda.com.  See the [registration documentation](https://docs.namikoda.com/registration/index.html) for the step-by-step process.
