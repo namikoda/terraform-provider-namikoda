@@ -54,7 +54,8 @@ resource "aws_security_group" "github-ingress" {
     cidr_blocks      = [ "${data.ipsfor.github.ipv4s}" ]
     ipv6_cidr_blocks = [ "${data.ipsfor.github.ipv6s}" ]
   }
-}```
+}
+```
 
 In this example, you create a data object using the `ipsfor` provider called `github`.  You'd put in your Namikoda API key from [the management portal](https://manage.namikoda.com), and tell the provider to get ranges with the Namikoda ID of `github`.  Then, craft an AWS security group called `github-ingress` with the results.
 
