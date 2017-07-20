@@ -25,8 +25,9 @@ This module is an interface between Hashicorp's Terraform and the Namikoda API. 
 
 ## Installing
 1. If you haven't yet, generate an API key at https://manage.namikoda.com.  See the [registration documentation](https://docs.namikoda.com/registration/index.html) for the step-by-step process.
-1. Download or build the `terraform-provider-namikoda` binary and put it somewhere
-1. edit `~/.terraformrc` and have it include the following
+1. Download the `terraform-provider-namikoda` binary distribution for your platform from https://github.com/namikoda/terraform-provider-namikoda/releases/latest and put it somewhere.
+1. Unzip the file you downloaded to get the actual binary.
+1. Edit `~/.terraformrc` and have it include the following
 
 ```
 providers {
